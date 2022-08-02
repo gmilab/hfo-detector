@@ -27,7 +27,8 @@ anywave_hsc_summary = hfodat.summarize_confusion(anywave_hsc_confusion);
 donos_rl_summary.PPV_fmt = arrayfun(@(x) sprintf('%.1f', x * 100), donos_rl_summary.PPV, 'UniformOutput', false);
 donos_rl_summary.SEN_fmt = arrayfun(@(x) sprintf('%.1f', x * 100), donos_rl_summary.SEN, 'UniformOutput', false);
 donos_zrh_summary.PPV_fmt = arrayfun(@(x) sprintf('%.1f', x * 100), donos_zrh_summary.PPV, 'UniformOutput', false);
-donos_zrh_summary.SEN_fmt = arrayfun(@(x) sprintf('%.1f', x * 100), donos_zrh_summary.SEN, 'UniformOutput', false);donos_hsc_summary.PPV_fmt = arrayfun(@(x) sprintf('%.1f', x * 100), donos_hsc_summary.PPV, 'UniformOutput', false);
+donos_zrh_summary.SEN_fmt = arrayfun(@(x) sprintf('%.1f', x * 100), donos_zrh_summary.SEN, 'UniformOutput', false);
+donos_hsc_summary.PPV_fmt = arrayfun(@(x) sprintf('%.1f', x * 100), donos_hsc_summary.PPV, 'UniformOutput', false);
 donos_hsc_summary.SEN_fmt = arrayfun(@(x) sprintf('%.1f', x * 100), donos_hsc_summary.SEN, 'UniformOutput', false);
 
 anywave_rl_summary.PPV_fmt = arrayfun(@(x) sprintf('%.1f', x * 100), anywave_rl_summary.PPV, 'UniformOutput', false);
